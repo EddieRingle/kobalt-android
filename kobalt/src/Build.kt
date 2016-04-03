@@ -24,7 +24,7 @@ val p = project {
     version = "0.60"
 
     dependencies {
-        compile("com.android.tools.build:builder:2.0.0-alpha3")
+        compile("com.android.tools.build:builder:2.1.0-alpha5")
 
         // Kobalt dependencies depending on whether I'm debugging or deploying
         // To deploy, depend on kobalt-plugin-api. For development, use kobalt.
